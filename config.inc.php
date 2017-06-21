@@ -24,13 +24,13 @@
     $this->dbHost = 'localhost'; // database host name
     $this->dbName = 'chop_dev'; // database name
     $this->dbUser = 'root'; // database user name
-    $this->dbPwd = '0gxttiHB'; // database user password
+    $this->dbPwd = ''; // database user password
     $this->dbType = 'mysql';
-    $this->sShopURL = 'http://pruebaschop.devbenzz.com'; // eShop base url, required
+    $this->sShopURL = 'http://localhost/chop'; // eShop base url, required
     $this->sSSLShopURL  = null;            // eShop SSL url, optional
     $this->sAdminSSLURL = null;            // eShop Admin SSL url, optional
-    $this->sShopDir = '/opt/bitnami/apache2/htdocs/chop_dev';
-    $this->sCompileDir = '/opt/bitnami/apache2/htdocs/chop_dev/tmp';
+    $this->sShopDir = '/opt/lampp/htdocs/chop';
+    $this->sCompileDir = '/opt/lampp/htdocs/chop/tmp';
 
     // UTF-8 mode in shop 0 - off, 1 - on
     $this->iUtfMode = 1;
