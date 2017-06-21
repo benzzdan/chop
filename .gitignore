@@ -2,4 +2,4 @@ tmp/
 log/
 config.inc.php
 .htaccess
-out/
+out/pictures/
