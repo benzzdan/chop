@@ -1,0 +1,48 @@
+oxConnectionException-oxException (time: 2017-06-21 06:31:24): [1146]: mysql error: [1146: Table 'chop_dev.oxconfig' doesn't exist] in EXECUTE (select
+                        oxvarname, oxvartype,  DECODE( oxvarvalue, 'fq45QS09_fqyx09239QQ')  as oxvarvalue
+                    from oxconfig
+                    where oxshopid = 'oxbaseshop' and  oxmodule='' , Array) with user root
+ 
+ Stack Trace: #0 /opt/lampp/htdocs/chop/core/adodblite/adodbSQL_drivers/mysql/mysql_driver.inc(369): adodb_throw('mysql', 'EXECUTE', 1146, 'Table 'chop_dev...', 'select\n        ...', Array, Object(object_ADOConnection))
+#1 /opt/lampp/htdocs/chop/core/adodblite/adodb.inc.php(316): mysql_driver_ADOConnection->do_query('select\n        ...', -1, -1, Array)
+#2 /opt/lampp/htdocs/chop/core/adodblite/adodbSQL_drivers/mysql/mysql_driver.inc(266): ADOConnection->Execute('select\n        ...', Array)
+#3 /opt/lampp/htdocs/chop/core/adodblite/adodbSQL_drivers/mysql/mysql_driver.inc(252): mysql_driver_ADOConnection->GetArray('select\n        ...', Array)
+#4 /opt/lampp/htdocs/chop/core/oxlegacydb.php(128): mysql_driver_ADOConnection->GetAll('select\n        ...', Array)
+#5 /opt/lampp/htdocs/chop/core/oxconfig.php(548): oxLegacyDb->getAll('select\n        ...')
+#6 /opt/lampp/htdocs/chop/core/oxconfig.php(399): oxConfig->_loadVarsFromDb('oxbaseshop')
+#7 /opt/lampp/htdocs/chop/core/oxconfig.php(331): oxConfig->init()
+#8 /opt/lampp/htdocs/chop/core/oxconfig.php(1934): oxConfig->getConfigParam('blProductive')
+#9 /opt/lampp/htdocs/chop/core/oxshopcontrol.php(618): oxConfig->isProductiveMode()
+#10 /opt/lampp/htdocs/chop/core/oxshopcontrol.php(582): oxShopControl->_getErrorReportingLevel()
+#11 /opt/lampp/htdocs/chop/core/oxshopcontrol.php(121): oxShopControl->_runOnce()
+#12 /opt/lampp/htdocs/chop/core/oxid.php(40): oxShopControl->start()
+#13 /opt/lampp/htdocs/chop/index.php(26): Oxid::run()
+#14 {main}
+
+ Connection Adress --> 
+Connection Error --> 
+---------------------------------------------
+oxConnectionException-oxException (time: 2017-06-21 06:35:21): [1146]: mysql error: [1146: Table 'chop_dev.oxconfig' doesn't exist] in EXECUTE (select
+                        oxvarname, oxvartype,  DECODE( oxvarvalue, 'fq45QS09_fqyx09239QQ')  as oxvarvalue
+                    from oxconfig
+                    where oxshopid = 'oxbaseshop' and  oxmodule='' , Array) with user root
+ 
+ Stack Trace: #0 /opt/lampp/htdocs/chop/core/adodblite/adodbSQL_drivers/mysql/mysql_driver.inc(369): adodb_throw('mysql', 'EXECUTE', 1146, 'Table 'chop_dev...', 'select\n        ...', Array, Object(object_ADOConnection))
+#1 /opt/lampp/htdocs/chop/core/adodblite/adodb.inc.php(316): mysql_driver_ADOConnection->do_query('select\n        ...', -1, -1, Array)
+#2 /opt/lampp/htdocs/chop/core/adodblite/adodbSQL_drivers/mysql/mysql_driver.inc(266): ADOConnection->Execute('select\n        ...', Array)
+#3 /opt/lampp/htdocs/chop/core/adodblite/adodbSQL_drivers/mysql/mysql_driver.inc(252): mysql_driver_ADOConnection->GetArray('select\n        ...', Array)
+#4 /opt/lampp/htdocs/chop/core/oxlegacydb.php(128): mysql_driver_ADOConnection->GetAll('select\n        ...', Array)
+#5 /opt/lampp/htdocs/chop/core/oxconfig.php(548): oxLegacyDb->getAll('select\n        ...')
+#6 /opt/lampp/htdocs/chop/core/oxconfig.php(399): oxConfig->_loadVarsFromDb('oxbaseshop')
+#7 /opt/lampp/htdocs/chop/core/oxconfig.php(331): oxConfig->init()
+#8 /opt/lampp/htdocs/chop/core/oxconfig.php(1934): oxConfig->getConfigParam('blProductive')
+#9 /opt/lampp/htdocs/chop/core/oxshopcontrol.php(618): oxConfig->isProductiveMode()
+#10 /opt/lampp/htdocs/chop/core/oxshopcontrol.php(582): oxShopControl->_getErrorReportingLevel()
+#11 /opt/lampp/htdocs/chop/core/oxshopcontrol.php(121): oxShopControl->_runOnce()
+#12 /opt/lampp/htdocs/chop/core/oxid.php(40): oxShopControl->start()
+#13 /opt/lampp/htdocs/chop/index.php(26): Oxid::run()
+#14 {main}
+
+ Connection Adress --> 
+Connection Error --> 
+---------------------------------------------
