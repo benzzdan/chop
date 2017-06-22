@@ -7,7 +7,7 @@
         [{assign var="oxcmp_categories" value=$oxcmp_categories}]
         [{assign var="blFullwidth" value=$oViewConf->getViewThemeParam('blFullwidthLayout')}]
 
-        <nav id="mainnav" class="navbar navbar-default" role="navigation">
+        <!--<nav id="mainnav" class="navbar navbar-default" role="navigation">
             <div class="[{if $blFullwidth}]container[{else}]container-fluid[{/if}]">
 
                 [{block name="dd_widget_header_categorylist_navbar_list"}]
@@ -97,6 +97,6 @@
                 [{/block}]
 
             </div>
-        </nav>
+        </nav>-->
     [{/if}]
 [{/block}]

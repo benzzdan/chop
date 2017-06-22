@@ -1,0 +1,29 @@
+body {
+    background-color: #f4f0f1 !important;
+}
+
+#header {
+    background-color: #f4f0f1 !important;
+}
+
+.container {
+    padding: 0px !important;
+}
+
+
+
+#chop-logo{
+    position: relative;
+    top: -25px;
+}
+
+#wrapper {
+    background-color: transparent !important;
+}
+
+#footer {
+    border: none !important;
+    color: none !important;
+    padding: 0 !important;
+    background-color: transparent !important;
+}
