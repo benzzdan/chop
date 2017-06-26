@@ -1,4 +1,29 @@
 
+
+@media only screen and (min-width: 800px) and (max-width: 1200px){
+    .bs-slider{
+        height: 530px;      
+    }
+    .bs-slider > .carousel-inner > .item > img, .bs-slider > .carousel-inner > .item > a > img {
+        height: 500px;
+    }
+}
+
+@media only screen and (min-width: 1700px) {
+    .bs-slider{
+        height: 670px;
+    }
+
+      .bs-slider > .carousel-inner > .item > img, .bs-slider > .carousel-inner > .item > a > img {
+        height: 670px;
+    }
+}
+
+
+
+
+
+
 .bs-slider{
     overflow: hidden;
     position: relative;
@@ -358,26 +383,6 @@ a:hover, a:focus {
 }
 
 
-
-
-@media only screen and (min-width: 800px) and (max-width: 1200px){
-    .bs-slider{
-        height: 530px;      
-    }
-    .bs-slider > .carousel-inner > .item > img, .bs-slider > .carousel-inner > .item > a > img {
-        height: 500px;
-    }
-}
-
-@media only screen and (max-width: 1500px) {
-    .bs-slider{
-        height: 670px;
-    }
-
-      .bs-slider > .carousel-inner > .item > img, .bs-slider > .carousel-inner > .item > a > img {
-        height: 670px;
-    }
-}
 
 
 #livechat-compact-container {
