@@ -75,7 +75,8 @@ body {
 
 /*Laptop*/
 
-@media (min-width: 800px) {
+@media (min-width: 800px){
+
     .menu-col{
         top: 116px;
     }
@@ -85,9 +86,9 @@ body {
     }
 
 
-#chop-logo{
-    left: -26px;
-    }
+    #chop-logo{
+        left: -26px;
+        }
 }
 
 
