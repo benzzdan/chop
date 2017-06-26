@@ -75,7 +75,7 @@ body {
 
 /*Laptop*/
 
-@media (max-width: 1500px){
+@media (max-width: 1600px){
 
     .menu-col{
         top: 116px;
@@ -94,13 +94,13 @@ body {
 
 /*Monitor*/
 
-@media (min-width: 1550px) {
+@media (min-width: 1601px) {
         .menu-col{
         top: 193px;
     }
 
     .push {
-        height: 156px;
+        height: 257px;
     }
 
 
