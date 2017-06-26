@@ -360,17 +360,16 @@ a:hover, a:focus {
 
 
 
-@media (min-width: 800px) {
+@media only screen and (min-width: 800px) and (max-width: 1200px){
     .bs-slider{
-        height: 530px;
-        
+        height: 530px;      
     }
     .bs-slider > .carousel-inner > .item > img, .bs-slider > .carousel-inner > .item > a > img {
         height: 500px;
     }
 }
 
-@media (min-width: 1600px) {
+@media only screen and (min-width: 1500px) {
     .bs-slider{
         height: 670px;
     }
