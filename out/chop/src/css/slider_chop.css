@@ -1,6 +1,6 @@
 
 
-@media only screen and (min-width: 800px) and (max-width: 1200px){
+@media (min-width: 800px) and (max-width: 1200px){
     .bs-slider{
         height: 530px;      
     }
