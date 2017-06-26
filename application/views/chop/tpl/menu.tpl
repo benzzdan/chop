@@ -24,7 +24,7 @@
                 </div>
             </div>
             <div class="push"></div>
-            <div class="row" style="margin-top: 12%">
+            <div class="row">
                 <div class="col-md-6">
                     <img src="[{$oViewConf->getImageUrl()}]menu/info_telefonos.png" alt="info">
                 </div>
