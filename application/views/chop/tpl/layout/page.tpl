@@ -26,11 +26,14 @@
                             [{include file="widget/slider.tpl"}]
                         </div>
                         <div class="col-md-2 menu-col" ">
-                            <a href="https://www.facebook.com/alimentoschop/" target="_blank">
+                            <a href="https://www.facebook.com/alimentoschop/" target="_blank" style="float: right">
                                 <img src="[{$oViewConf->getImageUrl()}]icono_facebook.png" alt="fbChop">
                             </a>
                            <br>
-                           <a href="https://www.instagram.com/croquetaschop/" target="_blank">
+                           <br> 
+                           <br>
+                           <br>
+                           <a href="https://www.instagram.com/croquetaschop/" target="_blank" style="float: right">
                             <img src="[{$oViewConf->getImageUrl()}]icono_instagram.png" alt="">
                            </a>
                         </div>
