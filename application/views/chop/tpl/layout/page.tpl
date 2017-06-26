@@ -9,26 +9,33 @@
 
     [{assign var="blFullwidth" value=$oViewConf->getViewThemeParam('blFullwidthLayout')}]
 
-    <div id="wrapper" [{if $sidebar}]class="sidebar[{$sidebar}]"[{/if}]>
+ 
 
-        <div class="[{if $blFullwidth}]container[{else}]container-fluid[{/if}]">
-
-            <div class="underdog">
+        <div class="container-fluid">
 
                 <div class="row">
                     [{if $oView->getClassName()=='start' && $oView->getBanners()|@count > 0}]
-                        <div class="col-md-2" style="top: 235px;">
-                            <img src="[{$oViewConf->getImageUrl()}]menu_inactivo.png" alt="">
+                        <div class="col-md-2 menu-col">
+                            <!--<a href="#" onclick="openNav()">
+                                <div class="menu_inact"></div>
+                            </a>-->
+                            <div id="nav-icon1" onclick="openNav()">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
                         </div>
                         <div class="col-md-8">
                             [{include file="widget/slider.tpl"}]
                         </div>
-                        <div class="col-md-2" style="top: 235px;">
-                            <a href="https://www.facebook.com">
+                        <div class="col-md-2 menu-col" ">
+                            <a href="https://www.facebook.com/alimentoschop/" target="_blank">
                                 <img src="[{$oViewConf->getImageUrl()}]icono_facebook.png" alt="fbChop">
                             </a>
                            <br>
+                           <a href="https://www.instagram.com/croquetaschop/" target="_blank">
                             <img src="[{$oViewConf->getImageUrl()}]icono_instagram.png" alt="">
+                           </a>
                         </div>
                     [{/if}]
                 </div>
@@ -77,11 +84,9 @@
 
                 </div>
 
-            </div>
-
         </div>
 
-    </div>
+ 
 
     [{include file="layout/footer.tpl"}]
 

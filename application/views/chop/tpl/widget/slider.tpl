@@ -14,8 +14,10 @@
             <div class="item active">
 
                 <!-- Slide Background -->
-                <img src="[{$oViewConf->getImageUrl()}]banners_1.png" alt="Bootstrap Touch Slider"  class="slide-image"/>
-                <div class="bs-slider-overlay"></div>
+                <a href="#">
+                    <img src="[{$oViewConf->getImageUrl()}]banners_1.png" alt="Bootstrap Touch Slider"  class="slide-image"/>
+                </a>
+
 
                 <div class="container">
                     <div class="row">
@@ -35,8 +37,10 @@
             <div class="item">
 
                 <!-- Slide Background -->
-                <img src="[{$oViewConf->getImageUrl()}]banners_2.png" alt="Bootstrap Touch Slider"  class="slide-image"/>
-                <div class="bs-slider-overlay"></div>
+                <a href="[{ oxgetseourl ident=$oViewConf->getSslSelfLink()|cat:"cl=register" }]">
+                    <img src="[{$oViewConf->getImageUrl()}]banners_2.png" alt="Bootstrap Touch Slider" style="height: 670px"/>
+                </a>
+       
                 <!-- Slide Text Layer -->
                 <div class="slide-text slide_style_center">
                     <!--<h1 data-animation="animated flipInX">Bootstrap touch slider</h1>

@@ -6,8 +6,20 @@ body {
     background-color: #f4f0f1 !important;
 }
 
-.container {
+/*.container {
     padding: 0px !important;
+}*/
+
+.container-menu {
+        width: 74%;
+    margin: auto;
+    margin-top: 160px;
+    margin-left: 16%;
+    display: none;
+}
+
+.logo-col {
+    z-index: 2000;
 }
 
 
@@ -26,4 +38,153 @@ body {
     color: none !important;
     padding: 0 !important;
     background-color: transparent !important;
+}
+
+
+#livechat-badge {
+        right: 80% !important;
+}
+
+
+
+.push {
+    height: 500px;
+}
+
+.menu_inact {
+    background: url('../../img/menu_inactivo.png') no-repeat;
+    height: 100px;
+}
+.closebtn {
+    background: url('../../img/menu/icono_cerrar.png') no-repeat;
+    height: 100px;
+    width: 100px;
+
+}
+
+
+
+.menu-col {
+    z-index: 2000;
+}
+
+/*Laptop*/
+
+@media (min-width: 800px) {
+    .menu-col{
+        top: 116px;
+    }
+}
+
+
+/*Monitor*/
+
+@media (min-width: 1500px) {
+        .menu-col{
+        top: 193px;
+    }
+}
+
+
+/*chop_menu*/
+
+
+.overlaymenu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    /*background-color: rgb(0,0,0);*/
+    background-color: #fff;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-contentmenu {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlaymenu a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlaymenu a:hover, .overlaymenu a:focus {
+    color: #f1f1f1;
+}
+
+.overlaymenu .closebtn {
+    position: relative;
+    top: 40%;
+    /*right: 45px;*/
+    left: 23px;
+    float: left;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlaymenu a {font-size: 20px}
+  .overlaymenu .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+
+
+.push50 {
+    height: 50px;
+}
+
+.menu-header {
+    font-family: 'Oswald', sans-serif;
+    color: #582931;
+    font-size: 56px;
+}
+
+small {
+    color: rgba(158, 158, 158, 0.71);
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+}
+
+.menu-subheader {
+    position: relative;
+    top: -75px;
+    padding-bottom: 7px;
+          display: inline-block;
+    text-decoration: none;
+}
+
+
+/*hover effects*/
+
+
+a small.menu-subheader::after {
+        content: '';
+    display: block;
+    width: 0;
+    height: 4px;
+    background: orange;
+    transition: width .3s;
+}
+
+.menu-section:hover small.menu-subheader::after {
+      width: 100%;
+    transition: width .3s;
+}
+
+.menu-columns {
+    max-height: 150px;
 }

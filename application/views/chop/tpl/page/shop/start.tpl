@@ -34,6 +34,7 @@
     [{/if}]-->
 
 
+
     [{insert name="oxid_tracker"}]
 [{/capture}]
 [{include file="layout/page.tpl"}]

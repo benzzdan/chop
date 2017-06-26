@@ -145,6 +145,7 @@
             [{oxstyle include="css/styles_chop.css"}]
             [{oxstyle include="css/sss.css"}]
             [{oxstyle include="css/slider_chop.css"}]
+            [{oxstyle include="css/menu.css"}]
         [{/block}]
 
         [{block name="base_fonts"}]
@@ -220,10 +221,37 @@
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" media="all">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" rel="stylesheet" media="all">
 
+
+        <!--FONTS-->
+        <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+
+
+
+
+        <!-- JS files -->
+
         <script type="text/javascript" src="[{$oViewConf->getResourceUrl()}]js/sss.min.js">
         </script>
         <script type="text/javascript" src="[{$oViewConf->getResourceUrl()}]js/slider.min.js">
         </script>
+        <script type="text/javascript" src="[{$oViewConf->getResourceUrl()}]js/custom.js">
+        </script>
+        <script type="text/javascript" src="[{$oViewConf->getResourceUrl()}]js/menu.js">
+        </script>
+
+
+
+
+
+        <!--Start of Zendesk Chat Script-->
+<!--<script type="text/javascript">
+window.$zopim||(function(d,s){var z=$zopim=function(c){z._.push(c)},$=z.s=
+d.createElement(s),e=d.getElementsByTagName(s)[0];z.set=function(o){z.set.
+_.push(o)};z._=[];z.set._=[];$.async=!0;$.setAttribute("charset","utf-8");
+$.src="https://v2.zopim.com/?4T7Bt0DVGdIdLHFR8BCK4JmtHrmVyfRL";z.t=+new Date;$.
+type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
+</script>-->
+<!--End of Zendesk Chat Script-->
 
 
 
@@ -231,6 +259,11 @@
 
     </head>
     <body class="cl-[{$oView->getClassName()}][{if $smarty.get.plain == '1'}] popup[{/if}][{if $blIsCheckout}] is-checkout[{/if}][{if $oxcmp_user && $oxcmp_user->oxuser__oxpassword->value}] is-logged-in[{/if}]"[{if $sStyle}] style="[{$sStyle}]"[{/if}]>
+
+        <!--menu test chop-->
+
+         [{include file="menu.tpl"}]
+
 
         [{* Theme SVG icons *}]
         [{block name="theme_svg_icons"}]
@@ -277,6 +310,30 @@
         [{foreach from=$oxidBlock_pageScript item="_block"}]
             [{$_block}]
         [{/foreach}]
+
+        <!-- Start of LiveChat (www.livechatinc.com) code -->
+<script type="text/javascript">
+window.__lc = window.__lc || {};
+window.__lc.license = 8902384;
+(function() {
+  var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
+  lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
+})();
+</script>
+<!-- End of LiveChat code -->
+
+
+
+        <!--Tween MAX-->
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js"></script>  
+
+        <!--Animation JS-->
+
+
+        <script type="text/javascript" src="[{$oViewConf->getResourceUrl()}]js/animation_main.js">
+        </script>
 
     </body>
 </html>

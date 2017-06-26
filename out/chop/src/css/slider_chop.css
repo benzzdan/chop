@@ -1,7 +1,6 @@
 
 .bs-slider{
     overflow: hidden;
-    height: 671px;
     position: relative;
 
 }
@@ -117,7 +116,7 @@
     right: 45%;
     bottom: 3%;
     left: auto;
-    top: 97%;
+    top: 96%;
     width: 90%;
     height: 20px;
     font-size: 0;
@@ -351,11 +350,40 @@
 }
 
 
-.slide-image {
-    max-height: 650px;
-}
+
 
 
 a:hover, a:focus {
     text-decoration: none;
+}
+
+
+
+
+@media (min-width: 800px) {
+    .bs-slider{
+        height: 530px;
+        
+    }
+    .bs-slider > .carousel-inner > .item > img, .bs-slider > .carousel-inner > .item > a > img {
+        height: 500px;
+    }
+}
+
+@media (min-width: 1500px) {
+    .bs-slider{
+        height: 670px;
+    }
+
+      .bs-slider > .carousel-inner > .item > img, .bs-slider > .carousel-inner > .item > a > img {
+        height: 670px;
+    }
+}
+
+
+#livechat-compact-container {
+    background-image: url("../../img/chat_perro.png") !important;
+       width: 342px !important;
+    height: 354px !important;
+
 }
