@@ -11,7 +11,7 @@
 
  
 
-        <div class="container-fluid">
+    
 
                 <div class="row">
                     [{if $oView->getClassName()=='start' && $oView->getBanners()|@count > 0}]
@@ -84,7 +84,7 @@
 
                 </div>
 
-        </div>
+       
 
  
 

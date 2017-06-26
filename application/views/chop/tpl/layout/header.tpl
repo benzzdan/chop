@@ -8,8 +8,6 @@
 
         <header id="header">
 
-            <div class="[{if $blFullwidth}]container[{else}]container-fluid[{/if}]">
-
                 <div class="header-box">
 
                     <div class="row">
@@ -70,8 +68,7 @@
                     </div>
 
                 </div>
-            </div>
-
+     
             [{block name="layout_header_bottom"}]
                 [{oxid_include_widget cl="oxwCategoryTree" cnid=$oView->getCategoryId() sWidgetType="header" _parent=$oView->getClassName() nocookie=1}]
             [{/block}]

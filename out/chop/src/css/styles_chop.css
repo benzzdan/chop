@@ -2,13 +2,21 @@ body {
     background-color: #f4f0f1 !important;
 }
 
+
+.row {
+    margin-left: 0 !important; 
+    margin-right: 0 !important;
+}
+
+
+
 #header {
     background-color: #f4f0f1 !important;
 }
 
-/*.container {
+.container {
     padding: 0px !important;
-}*/
+}
 
 .container-menu {
     width: 70%;
@@ -27,6 +35,7 @@ body {
 #chop-logo{
     position: relative;
     top: -25px;
+    left: 2px;
 }
 
 #wrapper {
@@ -75,6 +84,11 @@ body {
     .push {
         height: 0px;
     }
+
+
+#chop-logo{
+    left: 17px;
+    }
 }
 
 
@@ -87,6 +101,11 @@ body {
 
     .push {
         height: 156px;
+    }
+
+
+#chop-logo{
+    left: -4px;
     }
 }
 
