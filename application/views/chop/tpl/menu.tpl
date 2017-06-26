@@ -1,5 +1,4 @@
 <div id="chop_menu" class="overlaymenu">
-    <!--<a href="javascript:void(0)" class="closebtn" onclick="closeNav()"></a>-->
     <div class="overlay-content">
         <div class="container-menu">
             <div class="row">

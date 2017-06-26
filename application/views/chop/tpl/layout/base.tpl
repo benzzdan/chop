@@ -264,7 +264,6 @@ type="text/javascript";e.parentNode.insertBefore($,e)})(document,"script");
 
          [{include file="menu.tpl"}]
 
-
         [{* Theme SVG icons *}]
         [{block name="theme_svg_icons"}]
         <div style="display: none;">

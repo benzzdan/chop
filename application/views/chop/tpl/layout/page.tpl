@@ -16,10 +16,7 @@
                 <div class="row">
                     [{if $oView->getClassName()=='start' && $oView->getBanners()|@count > 0}]
                         <div class="col-md-2 menu-col">
-                            <!--<a href="#" onclick="openNav()">
-                                <div class="menu_inact"></div>
-                            </a>-->
-                            <div id="nav-icon1" onclick="openNav()">
+                            <div id="nav-icon1">
                                 <span></span>
                                 <span></span>
                                 <span></span>

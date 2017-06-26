@@ -8,7 +8,7 @@ $(document).ready(function(){
 
 function handler1() {
     $(this).one("click", handler2);
-    $('#chop_menu').css('width', '74%');
+    $('#chop_menu').css('width', '70%');
     setTimeout(function(){
         $('.container-menu').fadeIn();
     }, 500);
