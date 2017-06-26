@@ -2,10 +2,10 @@
 
 @media (max-width: 1600px){
     .bs-slider{
-        height: 530px;      
+        height: 600px;      
     }
     .bs-slider > .carousel-inner > .item > img, .bs-slider > .carousel-inner > .item > a > img {
-        height: 500px;
+        height: 600px;
     }
 }
 
