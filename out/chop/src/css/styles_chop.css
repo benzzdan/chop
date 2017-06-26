@@ -75,7 +75,7 @@ body {
 
 /*Laptop*/
 
-@media (min-width: 800px){
+@media (max-width: 1500px){
 
     .menu-col{
         top: 116px;
@@ -94,7 +94,7 @@ body {
 
 /*Monitor*/
 
-@media (min-width: 1500px) {
+@media (min-width: 1550px) {
         .menu-col{
         top: 193px;
     }

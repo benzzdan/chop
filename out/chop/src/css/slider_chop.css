@@ -1,6 +1,6 @@
 
 
-@media (max-width: 1200px){
+@media (max-width: 1500px){
     .bs-slider{
         height: 530px;      
     }
@@ -9,7 +9,7 @@
     }
 }
 
-@media (min-width: 1700px) {
+@media (min-width: 1550px) {
     .bs-slider{
         height: 670px;
     }
