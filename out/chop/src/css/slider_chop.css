@@ -370,7 +370,7 @@ a:hover, a:focus {
     }
 }
 
-@media (min-width: 1500px) {
+@media (min-width: 1600px) {
     .bs-slider{
         height: 670px;
     }
